@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  background-color: rgb(112, 83, 83);
+  font-size: 25px;
+}
+button {
+  font-size: 25px;
+}
+table {
+  border-collapse: collapse;
+  font-size: 16px;
+  margin: auto;
+}
+
+thead th {
+  background-color: #fff;
+  color: #333;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: left;
+  text-transform: uppercase
+}
+tbody td {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-align: left;
+  }
+  
+  tbody td:nth-child(2n) {
+  background-color: #282842;
+  }
+  
+  tfoot td {
+  background-color: #282842;
+  border-top: 2px solid #333;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: right;
+  }
